@@ -24,4 +24,28 @@ public class BinarySearch {
         }
 
     }
+
+    // 非递归版
+    public static int binarySearch2(int[] arr, int target) {
+
+        int left = 0;
+        int right = arr.length - 1;
+        int mid = 0;
+
+        while (left <= right) {
+            // left = 4 right = 4 mid = 4 arr[4] = target
+            mid = left + (right - left) / 2;
+            if (arr[mid] == target) {
+                return mid;
+            } else if (arr[mid] > target) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+
+        }
+        return -1;
+    }
+
+
 }

@@ -2,8 +2,6 @@ package com.Algorithm.resursion;
 
 import java.util.Arrays;
 
-import static com.google.io.RecursionDemo.f;
-
 // 多路递归 fibonacci
 public class Fibonacci {
 
