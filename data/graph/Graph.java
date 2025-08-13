@@ -15,20 +15,6 @@ public class Graph {
     }
 
 
-    // TODO 求最小生成树
-    public static void prime(Graph graph) {
-        int size = graph.adjList.size();
-        // minDistant
-        int[] minDis = new int[size];
-        Arrays.fill(minDis, Integer.MAX_VALUE);
-
-
-        // 1.找距离树最近的一个节点
-        // 2.加入到生成树中
-        // 3.更新所有非生成树节点（数组）到树的最小距离
-
-    }
-
     // 添加一条边：from -> to，带权重
     public void addEdge(String from, String to, int weight) {
         adjList.putIfAbsent(from, new ArrayList<>());
