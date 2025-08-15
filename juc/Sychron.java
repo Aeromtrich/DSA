@@ -1,5 +1,6 @@
 package com.juc;
 
+// 资源类
 class phone {
 
     public synchronized void sendSMS() {

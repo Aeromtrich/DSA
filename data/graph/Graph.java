@@ -1,7 +1,7 @@
-package com.data.graph;
+//package com.data.graph;
 
 import java.util.*;
-
+/*
 public class Graph {
 
     private Map<String, List<Edge>> adjList;
@@ -145,4 +145,4 @@ public class Graph {
 
 }
 
-
+*/
